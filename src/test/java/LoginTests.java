@@ -25,11 +25,11 @@ public class LoginTests extends TestBase{
     @Test
     public void loginPositiveTest1(){
 
-        User user = new User("alis", "lily", "tyt@mail.ru", "12345Tt!")
+        User user = new User()
                 .withEmail("taty@mail.ru")
                 .withPassword("Tt12345!");
         openLoginForm();
-        fillLoginForm(user);
+        fillLoginForm(user.getEmail(), user.getPassword());
         submitLogin();
         Assert.assertTrue(isLoggedSuccess());
     }

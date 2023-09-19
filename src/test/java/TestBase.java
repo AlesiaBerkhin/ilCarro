@@ -1,5 +1,6 @@
 import manager.ApplicationManager;
 import manager.HelperBase;
+import manager.HelperCar;
 import manager.HelperUser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +13,7 @@ import org.testng.annotations.BeforeSuite;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestBase implements HelperUser {
+public class TestBase implements HelperUser, HelperCar {
 
    WebDriver wd;
 

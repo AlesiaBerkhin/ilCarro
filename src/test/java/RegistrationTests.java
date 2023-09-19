@@ -1,26 +1,93 @@
 import models.User;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase{
 
+    @BeforeMethod
+    public void precondition(){
+        if(isLogged())logout();
+    }
 
     @Test
     public void registrationPositive(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-
-        User user = new User("Alis",
-                "Born",
-                "alis_" + i + "@mail.ru",
-                "Aa12345!");
-
-
-
+        User user = new User()
+                .withName("Alis")
+                .withlastName("Born")
+                .withEmail("alis_" + i + "@mail.ru")
+                .withPassword("Aa12345!");
 
         openRegistrationForm();
         fillRegistrationForm(user);
         submitRegistration();
-
+        Assert.assertTrue(isLoggedSuccess());
 
     }
+    @Test
+    public void registrationNegativeTestWrongEmail(){
 
+        User user = new User()
+                .withName("Aliss")
+                .withlastName("Born")
+                .withEmail("alismail.ru")
+                .withPassword("Aa12345!");
+
+        openRegistrationForm();
+        fillRegistrationForm(user);
+        submitRegistration();
+        Assert.assertTrue(isEmailWrong());
+    }
+    @Test
+    public void registrationNegativeTestWrongPassword(){
+        int i = (int)(System.currentTimeMillis()/1000)%3600;
+        User user = new User()
+                .withName("Aliss")
+                .withlastName("Born")
+                .withEmail("alis_" + i + "@mail.ru")
+                .withPassword("Aa12345");
+
+        openRegistrationForm();
+        fillRegistrationForm(user);
+        submitRegistration();
+        Assert.assertTrue(isPasswordWrong());
+    }
+
+    @Test
+    public void registrationNegativeTestWrongName(){
+        int i = (int)(System.currentTimeMillis()/1000)%3600;
+        User user = new User()
+                .withName("")
+                .withlastName("Born")
+                .withEmail("alis_" + i + "@mail.ru")
+                .withPassword("Aa12345!");
+
+        openRegistrationForm();
+        fillRegistrationForm(user);
+        submitRegistration();
+        Assert.assertTrue(isNameWrong());
+    }
+    @Test
+    public void registrationNegativeTestWronglastName(){
+        int i = (int)(System.currentTimeMillis()/1000)%3600;
+        User user = new User()
+                .withName("Alis")
+                .withlastName("")
+                .withEmail("alis_" + i + "@mail.ru")
+                .withPassword("Aa12345!");
+
+        openRegistrationForm();
+        pause(2000);
+        fillRegistrationForm(user);
+        submitRegistration();
+        Assert.assertTrue(isLastNameWrong());
+    }
+
+    @AfterMethod
+    public void postcondition(){
+        if (isLoggedSuccess()){  clickOkButton();}
+        else {init();}
+    }
 }
