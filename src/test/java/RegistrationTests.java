@@ -23,6 +23,7 @@ public class RegistrationTests extends TestBase{
         openRegistrationForm();
         fillRegistrationForm(user);
         submitRegistration();
+        logger.info("registrationPositive " + user.getName() + " & "+ user.getLastName() +" & "+ user.getEmail() +" & "+ user.getPassword()  );
         Assert.assertTrue(isLoggedSuccess());
 
     }
@@ -38,6 +39,7 @@ public class RegistrationTests extends TestBase{
         openRegistrationForm();
         fillRegistrationForm(user);
         submitRegistration();
+        logger.info("registrationPositive " + user.getName() + " & "+ user.getLastName() +" & "+ user.getEmail() +" & "+ user.getPassword()  );
         Assert.assertTrue(isEmailWrong());
     }
     @Test
@@ -52,6 +54,7 @@ public class RegistrationTests extends TestBase{
         openRegistrationForm();
         fillRegistrationForm(user);
         submitRegistration();
+        logger.info("registrationPositive " + user.getName() + " & "+ user.getLastName() +" & "+ user.getEmail() +" & "+ user.getPassword()  );
         Assert.assertTrue(isPasswordWrong());
     }
 
@@ -67,6 +70,7 @@ public class RegistrationTests extends TestBase{
         openRegistrationForm();
         fillRegistrationForm(user);
         submitRegistration();
+        logger.info("registrationPositive " + user.getName() + " & "+ user.getLastName() +" & "+ user.getEmail() +" & "+ user.getPassword()  );
         Assert.assertTrue(isNameWrong());
     }
     @Test
@@ -82,6 +86,7 @@ public class RegistrationTests extends TestBase{
         pause(2000);
         fillRegistrationForm(user);
         submitRegistration();
+        logger.info("registrationPositive " + user.getName() + " & "+ user.getLastName() +" & "+ user.getEmail() +" & "+ user.getPassword()  );
         Assert.assertTrue(isLastNameWrong());
     }
 

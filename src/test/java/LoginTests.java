@@ -18,6 +18,7 @@ public class LoginTests extends TestBase{
         openLoginForm();
         fillLoginForm("katy@mail.ru", "Kk12345!" );
         submitLogin();
+        logger.info("loginPositiveTest1 " + "katy@mail.ru" + " & " + "Kk12345!");
         Assert.assertTrue(isLoggedSuccess());
         pause(2000);
     }
@@ -31,6 +32,7 @@ public class LoginTests extends TestBase{
         openLoginForm();
         fillLoginForm(user.getEmail(), user.getPassword());
         submitLogin();
+        logger.info("loginPositiveTest1 " + user.getEmail() + " & " + user.getPassword());
         Assert.assertTrue(isLoggedSuccess());
     }
 

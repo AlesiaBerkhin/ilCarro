@@ -1,0 +1,21 @@
+2023-09-26 21:00:53,430 INFO m.ApplicationManager [ApplicationManager.java:22] Navigate to the link---->https://ilcarro.web.app/search
+2023-09-26 21:00:53,465 INFO TestBase [TestBase.java:22] Started test ---->registrationNegativeTestWrongEmail
+2023-09-26 21:01:00,175 INFO TestBase [RegistrationTests.java:42] registrationPositive Aliss & Born & alismail.ru & Aa12345!
+2023-09-26 21:01:03,425 INFO m.ApplicationManager [ApplicationManager.java:22] Navigate to the link---->https://ilcarro.web.app/search
+2023-09-26 21:01:03,428 INFO TestBase [TestBase.java:27] Finished test ---->registrationNegativeTestWrongEmail
+2023-09-26 21:01:03,430 INFO TestBase [TestBase.java:22] Started test ---->registrationNegativeTestWrongName
+2023-09-26 21:01:09,954 INFO TestBase [RegistrationTests.java:73] registrationPositive  & Born & alis_66@mail.ru & Aa12345!
+2023-09-26 21:01:13,218 INFO m.ApplicationManager [ApplicationManager.java:22] Navigate to the link---->https://ilcarro.web.app/search
+2023-09-26 21:01:13,221 INFO TestBase [TestBase.java:27] Finished test ---->registrationNegativeTestWrongName
+2023-09-26 21:01:13,222 INFO TestBase [TestBase.java:22] Started test ---->registrationNegativeTestWrongPassword
+2023-09-26 21:01:19,722 INFO TestBase [RegistrationTests.java:57] registrationPositive Aliss & Born & alis_76@mail.ru & Aa12345
+2023-09-26 21:01:22,943 INFO m.ApplicationManager [ApplicationManager.java:22] Navigate to the link---->https://ilcarro.web.app/search
+2023-09-26 21:01:22,946 INFO TestBase [TestBase.java:27] Finished test ---->registrationNegativeTestWrongPassword
+2023-09-26 21:01:22,947 INFO TestBase [TestBase.java:22] Started test ---->registrationNegativeTestWronglastName
+2023-09-26 21:01:31,489 INFO TestBase [RegistrationTests.java:89] registrationPositive Alis &  & alis_86@mail.ru & Aa12345!
+2023-09-26 21:01:34,726 INFO m.ApplicationManager [ApplicationManager.java:22] Navigate to the link---->https://ilcarro.web.app/search
+2023-09-26 21:01:34,729 INFO TestBase [TestBase.java:27] Finished test ---->registrationNegativeTestWronglastName
+2023-09-26 21:01:34,730 INFO TestBase [TestBase.java:22] Started test ---->registrationPositive
+2023-09-26 21:01:41,309 INFO TestBase [RegistrationTests.java:26] registrationPositive Alis & Born & alis_97@mail.ru & Aa12345!
+2023-09-26 21:01:42,423 INFO TestBase [TestBase.java:27] Finished test ---->registrationPositive
+2023-09-26 21:01:47,543 INFO m.ApplicationManager [ApplicationManager.java:28] Test completed

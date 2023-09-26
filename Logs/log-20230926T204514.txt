@@ -1,0 +1,4 @@
+2023-09-26 20:45:17,242 INFO m.ApplicationManager [ApplicationManager.java:22] Navigate to the link---->https://ilcarro.web.app/search
+2023-09-26 20:45:17,280 INFO TestBase [TestBase.java:22] Started test ---->loginPositiveTest1
+2023-09-26 20:45:20,713 INFO TestBase [LoginTests.java:37] loginPositiveTest1 taty@mail.ru & Tt12345!
+2023-09-26 20:45:21,771 INFO TestBase [TestBase.java:27] Finished test ---->loginPositiveTest1
