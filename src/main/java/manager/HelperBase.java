@@ -1,10 +1,12 @@
 package manager;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.io.IOException;
 
 public interface HelperBase extends ApplicationManager{
 
@@ -39,5 +41,15 @@ public interface HelperBase extends ApplicationManager{
         System.out.println(alert.getText());
         alert.accept();
         return true;
+    }
+   default void takeScreenshot(String link){
+        File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(link);
+
+        try{
+            Files.copy(tmp, screenshot);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

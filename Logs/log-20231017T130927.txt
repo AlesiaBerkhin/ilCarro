@@ -1,0 +1,43 @@
+2023-10-17 13:09:30,897 INFO TestBase [TestBase.java:22] Started test ---->addNewCarPositive
+2023-10-17 13:09:42,541 INFO TestBase [TestBase.java:27] Finished test ---->addNewCarPositive
+2023-10-17 13:09:42,543 INFO TestBase [TestBase.java:22] Started test ---->loginPositiveTest
+2023-10-17 13:09:42,952 INFO TestBase [LoginTests.java:21] loginPositiveTest1 katy@mail.ru & Kk12345!
+2023-10-17 13:09:45,254 INFO TestBase [TestBase.java:27] Finished test ---->loginPositiveTest
+2023-10-17 13:09:45,255 INFO TestBase [TestBase.java:22] Started test ---->loginPositiveTest1
+2023-10-17 13:09:45,621 INFO TestBase [LoginTests.java:35] loginPositiveTest1 taty@mail.ru & Tt12345!
+2023-10-17 13:09:46,175 INFO TestBase [TestBase.java:27] Finished test ---->loginPositiveTest1
+2023-10-17 13:09:46,176 INFO TestBase [TestBase.java:22] Started test ---->registrationNegativeTestWrongEmail
+2023-10-17 13:09:49,335 INFO m.WDListener [WDListener.java:15] Something went wrong!!!
+2023-10-17 13:09:49,335 INFO m.WDListener [WDListener.java:16] no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'alesias-mbp', ip: 'fe80:0:0:0:1c44:478a:f7f1:88f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/kv/vrlp6xsj69g...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7db713dc3229912c1401fc02691e5d35
+*** Element info: {Using=id, value=name}
+2023-10-17 13:09:49,336 INFO m.WDListener [WDListener.java:17] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'alesias-mbp', ip: 'fe80:0:0:0:1c44:478a:f7f1:88f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/kv/vrlp6xsj69g...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7db713dc3229912c1401fc02691e5d35
+*** Element info: {Using=id, value=name}
+2023-10-17 13:09:50,133 INFO m.WDListener [WDListener.java:21] Here is the path to screenshot with error ---> src/test/screenshots/screenshot- 589 .png
+2023-10-17 13:09:53,347 INFO TestBase [TestBase.java:27] Finished test ---->registrationNegativeTestWrongEmail
+2023-10-17 13:09:53,348 INFO TestBase [TestBase.java:22] Started test ---->registrationNegativeTestWrongName
+2023-10-17 13:09:59,823 INFO TestBase [RegistrationTests.java:73] registrationPositive  & Born & alis_596@mail.ru & Aa12345!
+2023-10-17 13:10:03,070 INFO TestBase [TestBase.java:27] Finished test ---->registrationNegativeTestWrongName
+2023-10-17 13:10:03,071 INFO TestBase [TestBase.java:22] Started test ---->registrationNegativeTestWrongPassword
+2023-10-17 13:10:09,556 INFO TestBase [RegistrationTests.java:57] registrationPositive Aliss & Born & alis_606@mail.ru & Aa12345
+2023-10-17 13:10:12,810 INFO TestBase [TestBase.java:27] Finished test ---->registrationNegativeTestWrongPassword
+2023-10-17 13:10:12,811 INFO TestBase [TestBase.java:22] Started test ---->registrationNegativeTestWronglastName
+2023-10-17 13:10:21,341 INFO TestBase [RegistrationTests.java:89] registrationPositive Alis &  & alis_615@mail.ru & Aa12345!
+2023-10-17 13:10:24,593 INFO TestBase [TestBase.java:27] Finished test ---->registrationNegativeTestWronglastName
+2023-10-17 13:10:24,593 INFO TestBase [TestBase.java:22] Started test ---->registrationPositive
+2023-10-17 13:10:31,152 INFO TestBase [RegistrationTests.java:26] registrationPositive Alis & Born & alis_627@mail.ru & Aa12345!
+2023-10-17 13:10:31,600 INFO TestBase [TestBase.java:27] Finished test ---->registrationPositive
+2023-10-17 13:10:36,762 INFO m.ApplicationManager [ApplicationManager.java:33] Test completed

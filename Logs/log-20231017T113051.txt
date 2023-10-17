@@ -1,0 +1,23 @@
+2023-10-17 11:30:54,030 INFO TestBase [TestBase.java:22] Started test ---->addNewCarPositive
+2023-10-17 11:31:04,587 INFO m.WDListener [WDListener.java:15] Something went wrong!!!
+2023-10-17 11:31:04,587 INFO m.WDListener [WDListener.java:16] no such element: Unable to locate element: {"method":"css selector","selector":"#pickUpPlac"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'alesias-mbp', ip: 'fe80:0:0:0:1c5f:2bd:1ba5:41b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/kv/vrlp6xsj69g...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 52b4fd070a0496871a14b6e4a96bc866
+*** Element info: {Using=id, value=pickUpPlac}
+2023-10-17 11:31:04,587 INFO m.WDListener [WDListener.java:17] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pickUpPlac"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'alesias-mbp', ip: 'fe80:0:0:0:1c5f:2bd:1ba5:41b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/kv/vrlp6xsj69g...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 52b4fd070a0496871a14b6e4a96bc866
+*** Element info: {Using=id, value=pickUpPlac}
+2023-10-17 11:31:04,960 INFO m.WDListener [WDListener.java:21] Here is the path to screenshot with error ---> src/test/screenshots/screenshot- 1864 .png
+2023-10-17 11:31:04,962 INFO TestBase [TestBase.java:27] Finished test ---->addNewCarPositive
+2023-10-17 11:31:10,070 INFO m.ApplicationManager [ApplicationManager.java:33] Test completed

@@ -1,0 +1,4 @@
+2023-10-17 11:20:03,817 INFO m.ApplicationManager [ApplicationManager.java:22] Navigate to the link---->https://ilcarro.web.app/search
+2023-10-17 11:20:03,856 INFO TestBase [TestBase.java:22] Started test ---->addNewCarPositive
+2023-10-17 11:20:15,326 INFO TestBase [TestBase.java:27] Finished test ---->addNewCarPositive
+2023-10-17 11:20:20,436 INFO m.ApplicationManager [ApplicationManager.java:28] Test completed

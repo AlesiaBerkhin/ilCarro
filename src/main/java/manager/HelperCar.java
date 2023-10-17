@@ -35,6 +35,7 @@ public interface HelperCar extends HelperBase{
 
     default void typeLocation(String location){
         type(By.id("pickUpPlace"), location);
+     // type(By.id("pickUpPlac"), location); //polomka
         click(By.className("pac-item"));
     }
 
