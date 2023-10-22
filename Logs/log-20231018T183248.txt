@@ -1,0 +1,9 @@
+2023-10-18 18:32:53,729 INFO TestBase [TestBase.java:23] Started test ---->loginPositiveTest
+2023-10-18 18:32:57,268 INFO TestBase [LoginTests.java:21] loginPositiveTest1 katy@mail.ru & Kk12345!
+2023-10-18 18:33:00,147 INFO TestBase [TestBase.java:28] Finished test ---->loginPositiveTest
+2023-10-18 18:33:00,150 INFO TestBase [TestBase.java:23] Started test ---->loginPositiveTest1
+2023-10-18 18:33:00,724 INFO TestBase [LoginTests.java:44] loginPositiveTest1 taty@mail.ru & Tt12345!
+2023-10-18 18:33:01,014 INFO TestBase [TestBase.java:28] Finished test ---->loginPositiveTest1
+2023-10-18 18:33:01,033 INFO TestBase [TestBase.java:23] Started test ---->loginPositiveTestProps
+2023-10-18 18:33:03,768 INFO TestBase [TestBase.java:28] Finished test ---->loginPositiveTestProps
+2023-10-18 18:33:08,875 INFO m.ApplicationManager [ApplicationManager.java:51] Test completed

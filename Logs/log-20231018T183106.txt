@@ -1,0 +1,25 @@
+2023-10-18 18:31:12,480 INFO TestBase [TestBase.java:23] Started test ---->loginPositiveTest
+2023-10-18 18:31:16,514 INFO TestBase [LoginTests.java:21] loginPositiveTest1 katy@mail.ru & Kk12345!
+2023-10-18 18:31:19,346 INFO TestBase [TestBase.java:28] Finished test ---->loginPositiveTest
+2023-10-18 18:31:19,349 INFO TestBase [TestBase.java:23] Started test ---->loginPositiveTest1
+2023-10-18 18:31:20,591 INFO TestBase [LoginTests.java:44] loginPositiveTest1 taty@mail.ru & Tt12345!
+2023-10-18 18:31:20,846 INFO TestBase [TestBase.java:28] Finished test ---->loginPositiveTest1
+2023-10-18 18:31:20,846 INFO TestBase [TestBase.java:23] Started test ---->loginPositiveTestProps
+2023-10-18 18:31:25,138 INFO TestBase [TestBase.java:28] Finished test ---->loginPositiveTestProps
+2023-10-18 18:31:25,144 INFO TestBase [TestBase.java:23] Started test ---->addNewCarPositive
+2023-10-18 18:31:34,222 INFO m.WDListener [WDListener.java:15] Something went wrong!!!
+2023-10-18 18:31:34,222 INFO m.WDListener [WDListener.java:16] (307, 962) is out of bounds of viewport width (1280) and height (955)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'alesias-mbp', ip: 'fe80:0:0:0:102c:fe:bf64:c8ec%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.5.0, moz:processID: 1653, moz:profile: /var/folders/kv/vrlp6xsj69g..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a525b298-2e01-4a32-9f05-3e0e767421a3
+2023-10-18 18:31:34,223 INFO m.WDListener [WDListener.java:17] org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (307, 962) is out of bounds of viewport width (1280) and height (955)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'alesias-mbp', ip: 'fe80:0:0:0:102c:fe:bf64:c8ec%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.5.0, moz:processID: 1653, moz:profile: /var/folders/kv/vrlp6xsj69g..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a525b298-2e01-4a32-9f05-3e0e767421a3
+2023-10-18 18:31:34,364 INFO m.WDListener [WDListener.java:21] Here is the path to screenshot with error ---> src/test/screenshots/screenshot- 1894 .png
+2023-10-18 18:31:34,366 INFO TestBase [TestBase.java:28] Finished test ---->addNewCarPositive
+2023-10-18 18:31:40,080 INFO m.ApplicationManager [ApplicationManager.java:51] Test completed
