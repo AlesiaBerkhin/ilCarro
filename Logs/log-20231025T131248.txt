@@ -1,0 +1,16 @@
+2023-10-25 13:14:02,206 INFO TestBase [TestBase.java:23] Started test ---->registrationNegativeTestWrongEmail
+2023-10-25 13:14:08,834 INFO TestBase [RegistrationTests.java:44] registrationPositive Aliss & Born & alismail.ru & Aa12345!
+2023-10-25 13:14:12,104 INFO TestBase [TestBase.java:28] Finished test ---->registrationNegativeTestWrongEmail
+2023-10-25 13:14:12,105 INFO TestBase [TestBase.java:23] Started test ---->registrationNegativeTestWrongName
+2023-10-25 13:14:18,583 INFO TestBase [RegistrationTests.java:75] registrationPositive  & Born & alis_855@mail.ru & Aa12345!
+2023-10-25 13:14:21,796 INFO TestBase [TestBase.java:28] Finished test ---->registrationNegativeTestWrongName
+2023-10-25 13:14:21,797 INFO TestBase [TestBase.java:23] Started test ---->registrationNegativeTestWrongPassword
+2023-10-25 13:14:28,289 INFO TestBase [RegistrationTests.java:59] registrationPositive Aliss & Born & alis_864@mail.ru & Aa12345
+2023-10-25 13:14:31,524 INFO TestBase [TestBase.java:28] Finished test ---->registrationNegativeTestWrongPassword
+2023-10-25 13:14:31,525 INFO TestBase [TestBase.java:23] Started test ---->registrationNegativeTestWronglastName
+2023-10-25 13:14:39,995 INFO TestBase [RegistrationTests.java:91] registrationPositive Alis &  & alis_874@mail.ru & Aa12345!
+2023-10-25 13:16:06,242 INFO TestBase [TestBase.java:28] Finished test ---->registrationNegativeTestWronglastName
+2023-10-25 13:16:06,243 INFO TestBase [TestBase.java:23] Started test ---->registrationPositive
+2023-10-25 13:16:12,783 INFO TestBase [RegistrationTests.java:28] registrationPositive Alis & Born & alis_969@mail.ru & Aa12345!
+2023-10-25 13:16:19,010 INFO TestBase [TestBase.java:28] Finished test ---->registrationPositive
+2023-10-25 13:16:24,114 INFO m.ApplicationManager [ApplicationManager.java:51] Test completed

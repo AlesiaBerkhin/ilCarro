@@ -1,0 +1,4 @@
+2023-10-25 13:06:16,667 INFO TestBase [TestBase.java:23] Started test ---->registrationPositive
+2023-10-25 13:06:23,341 INFO TestBase [RegistrationTests.java:28] registrationPositive Alis & Born & alis_379@mail.ru & Aa12345!
+2023-10-25 13:06:24,456 INFO TestBase [TestBase.java:28] Finished test ---->registrationPositive
+2023-10-25 13:06:29,614 INFO m.ApplicationManager [ApplicationManager.java:51] Test completed

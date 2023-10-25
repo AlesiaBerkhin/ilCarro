@@ -26,6 +26,7 @@ public class RegistrationTests extends TestBase{
         fillRegistrationForm(user);
         submitRegistration();
         logger.info("registrationPositive " + user.getName() + " & "+ user.getLastName() +" & "+ user.getEmail() +" & "+ user.getPassword()  );
+        pause(3000);
         Assert.assertTrue(isLoggedSuccess());
 
     }
