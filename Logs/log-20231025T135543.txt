@@ -1,0 +1,3 @@
+2023-10-25 13:55:47,809 INFO TestBase [TestBase.java:23] Started test ---->addNewCarPositive
+2023-10-25 13:56:00,814 INFO TestBase [TestBase.java:28] Finished test ---->addNewCarPositive
+2023-10-25 13:56:05,971 INFO m.ApplicationManager [ApplicationManager.java:51] Test completed

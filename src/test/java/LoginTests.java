@@ -12,7 +12,7 @@ public class LoginTests extends TestBase{
         if(isLogged())logout();
     }
 
-    @Test
+    @Test(groups ={"positive"})
     public void loginPositiveTest(){
 
         openLoginForm();
@@ -22,7 +22,7 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(isLoggedSuccess());
         pause(2000);
     }
-    @Test
+    @Test(groups ={"positive"})
     public void loginPositiveTestProps(){
 
         openLoginForm();
@@ -32,7 +32,7 @@ public class LoginTests extends TestBase{
         pause(2000);
     }
 
-    @Test
+    @Test(groups ={"positive"})
     public void loginPositiveTest1(){
 
         User user = new User()
@@ -47,7 +47,6 @@ public class LoginTests extends TestBase{
 
     @AfterMethod
     public void postcondition(){
-
         clickOkButton();
     }
 }

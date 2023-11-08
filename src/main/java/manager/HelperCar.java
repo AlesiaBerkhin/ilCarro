@@ -61,6 +61,18 @@ public interface HelperCar extends HelperBase{
 
     }
 
+    default void clickAddNewCarButton(){
+        click(By.xpath("//a[.='Search cars']"));
+    }
+
+    default boolean isAddCarSuccess(){
+        return isElementPresent(By.xpath("//h1[contains(text(),'Car added')]"));
+    }
+
+    default void submitNewCar(){
+
+        click(By.xpath("//button[@type='submit']"));
+    }
     default void select(By locator, String option){
         new Select(wd.findElement(locator)).selectByValue(option);
     }
